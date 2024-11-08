@@ -18,7 +18,7 @@ public class EmailServiceTest {
         String assunto = "Sasuke está morto";
         String corpo = "<p>Ele está vivo, venha busca-lo.</p>";
 
-        // Chamando o método de envio de e-mail
+        //Chamando o método de envio de e-mail
         try {
             emailService.enviarEmail(emailDestinatario, assunto, corpo);
             assertTrue(true, "O e-mail foi enviado com sucesso.");

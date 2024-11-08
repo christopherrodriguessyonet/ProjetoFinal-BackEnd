@@ -1,15 +1,15 @@
 package projetodevfinal.br.com.syonet.model;
 
+import java.time.LocalDate;
+import java.util.regex.Pattern;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor;
-
-import java.time.LocalDate;
-import java.util.regex.Pattern;
 
 @Entity
 @Table(name = "Cliente")
