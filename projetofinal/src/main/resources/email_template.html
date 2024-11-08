@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Cor de fundo da página */
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: white; /* Fundo branco para a caixa */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background-color: #f4f4f4; /* Cor de fundo do cabeçalho */
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #777; /* Cor do rodapé */
+            text-align: center;
+        }
+
+        h1 {
+            color: #4CAF50; /* Cor primária */
+            margin: 0;
+        }
+
+        h2 {
+            color: #4CAF50; /* Cor primária */
+        }
+
+        p {
+            color: #333; /* Cor do texto */
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 15px; 
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        a {
+            color: #4CAF50; /* Cor dos links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline; /* Sublinha ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Notícias do dia!</h1>
+        </div>
+        <p>Bom dia {{nome_cliente}}!</p>
+        <p>{{mensagem_aniversario}}</p>
+        <h2>Últimas notícias:</h2>
+        <ul>
+            {{noticias}}
+        </ul>
+        <div class="footer">
+            <p>CRM Syonet</p>
+            <p>Rua Buarque de Macedo, 93 - CEP 92510-300 - Montenegro - RS</p>
+        </div>
+    </div>
+</body>
+</html>

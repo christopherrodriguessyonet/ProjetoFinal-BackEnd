@@ -1,0 +1,1 @@
+Projeto final do curso de backend da syonet. Projeto elaborado com o quarkus, para enviar e-mails diários aos clientes cadastros no banco. Sendo possível listas clientes, notícias, cadastrar clientes e notícias.
