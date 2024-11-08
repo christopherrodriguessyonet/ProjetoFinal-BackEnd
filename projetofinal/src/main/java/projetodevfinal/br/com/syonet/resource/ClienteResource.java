@@ -19,7 +19,7 @@ public class ClienteResource {
     @POST
     @Transactional
     public Response cadastrarCliente(Cliente cliente) {
-        // Validar e-mail antes de cadastrar
+        //Valida e-mail antes de cadastrar
         cliente.validateEmail();
         clienteService.cadastrarCliente(cliente);
         return Response.status(Response.Status.CREATED).build();
