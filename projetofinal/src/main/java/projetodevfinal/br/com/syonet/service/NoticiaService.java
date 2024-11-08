@@ -13,7 +13,7 @@ public class NoticiaService implements PanacheRepository<Noticia> {
     private static final String LINK_REGEX = "^(http://|https://).*"; // Regex para validar o link
 
     public void cadastrarNoticia(Noticia noticia) {
-        // Verifica se o link é válido
+        //Verifica se o link é válido
         if (noticia.getLink() == null || !Pattern.matches(LINK_REGEX, noticia.getLink())) {
             throw new RuntimeException("O link deve ser uma URL válida que comece com http:// ou https://");
         }

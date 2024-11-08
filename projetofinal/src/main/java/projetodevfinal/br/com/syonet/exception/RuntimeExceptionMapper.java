@@ -12,7 +12,7 @@ public class RuntimeExceptionMapper implements ExceptionMapper<RuntimeException>
     public Response toResponse(RuntimeException exception) {
         return Response.status(Response.Status.BAD_REQUEST)
                 .entity(exception.getMessage())
-                .type(MediaType.TEXT_PLAIN) // Força o tipo de resposta como texto puro
+                .type(MediaType.TEXT_PLAIN) //Força o tipo de resposta como texto puro
                 .build();
     }
 }
