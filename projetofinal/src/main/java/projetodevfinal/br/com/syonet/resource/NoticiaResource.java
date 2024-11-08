@@ -1,7 +1,7 @@
-package cursodev.projetofinal.syonnet.com.resource;
+package projetodevfinal.br.com.syonet.resource;
 
-import cursodev.projetofinal.syonnet.com.model.Noticia;
-import cursodev.projetofinal.syonnet.com.service.NoticiaService;
+import projetodevfinal.br.com.syonet.model.Noticia;
+import projetodevfinal.br.com.syonet.service.NoticiaService;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;

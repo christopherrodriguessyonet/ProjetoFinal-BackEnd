@@ -1,6 +1,6 @@
-package cursodev.projetofinal.syonnet.com.resource;
+package projetodevfinal.br.com.syonet.resource;
 
-import cursodev.projetofinal.syonnet.com.service.EmailService;
+import projetodevfinal.br.com.syonet.service.EmailService;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
