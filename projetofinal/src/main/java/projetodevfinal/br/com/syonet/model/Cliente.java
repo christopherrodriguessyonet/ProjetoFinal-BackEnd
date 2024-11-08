@@ -1,4 +1,4 @@
-package cursodev.projetofinal.syonnet.com.model;
+package projetodevfinal.br.com.syonet.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

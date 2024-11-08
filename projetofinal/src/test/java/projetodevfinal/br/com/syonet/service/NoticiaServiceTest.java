@@ -1,9 +1,10 @@
-package cursodev.projetofinal.syonnet.com.service;
+package projetodevfinal.br.com.syonet.service;
 
-import cursodev.projetofinal.syonnet.com.model.Noticia;
 import io.quarkus.test.junit.QuarkusTest;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
+import projetodevfinal.br.com.syonet.model.Noticia;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

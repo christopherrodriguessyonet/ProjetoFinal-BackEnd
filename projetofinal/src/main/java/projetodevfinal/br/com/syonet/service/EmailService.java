@@ -1,7 +1,7 @@
-package cursodev.projetofinal.syonnet.com.service;
+package projetodevfinal.br.com.syonet.service;
 
-import cursodev.projetofinal.syonnet.com.model.Cliente;
-import cursodev.projetofinal.syonnet.com.model.Noticia;
+import projetodevfinal.br.com.syonet.model.Cliente;
+import projetodevfinal.br.com.syonet.model.Noticia;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 

@@ -1,6 +1,6 @@
-package cursodev.projetofinal.syonnet.com.service;
+package projetodevfinal.br.com.syonet.service;
 
-import cursodev.projetofinal.syonnet.com.model.Cliente;
+import projetodevfinal.br.com.syonet.model.Cliente;
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 

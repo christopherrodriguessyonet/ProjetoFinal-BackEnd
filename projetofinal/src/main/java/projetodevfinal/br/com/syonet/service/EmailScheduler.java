@@ -1,4 +1,4 @@
-package cursodev.projetofinal.syonnet.com.service;
+package projetodevfinal.br.com.syonet.service;
 
 import io.quarkus.scheduler.Scheduled;
 import jakarta.inject.Inject;
